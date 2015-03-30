@@ -4,10 +4,11 @@
 body {
 	background-image: image-url('#');
 	font-family: Verdana;
+	background-color: #3299CC;
 }
 
 /*center name*/
-h1.name {
+h1.name, h2 {
 	text-align: center;
 	border: 2px solid black;
 	border-radius: 15px;
@@ -33,4 +34,11 @@ img#carol {
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+/*style background of the text*/
+.info {
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #BFEFFF;
+	font-size: 14px;
 }
