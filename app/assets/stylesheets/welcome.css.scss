@@ -6,6 +6,18 @@ body {
 	font-family: Verdana;
 }
 
+/*center name*/
+h1.name {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 40px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #BFEFFF;
+}
+/*style main image*/
 img#carol {
 	border: 2px solid black;
 	height: 300px;
