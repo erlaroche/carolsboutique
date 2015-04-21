@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <% @photos.each do |photo| %>
+    <li> <%= photo.title %> : <%= photo.body %> </li>
+    <% end %>
+  </ul>
+  <%= link_to 'New Post' photos_new_path%>
+<div>
