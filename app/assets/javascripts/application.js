@@ -18,6 +18,3 @@
 
 $(function(){ $(document).foundation(); });
 
-$(image#carol).click(function() {
-  $(this).toggle( "bounce", { times: 3 },'fast');
-});
