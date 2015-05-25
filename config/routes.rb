@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get 'welcome/index', :as => 'home'
   get 'welcome/gallary', :as => 'gallary'
+  get 'welcome/products', :as => 'product'
+  get 'welcome/email', :as => 'email'
+  get 'welcome/about', :as => 'about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
