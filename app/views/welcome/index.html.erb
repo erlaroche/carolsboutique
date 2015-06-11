@@ -15,9 +15,13 @@
 		<div class="small-12 large-4 columns">
 			<span id="carol"><%= image_tag "ballerina.jpg", id: 'carol' %></span>
 			<span>
-				<h2>Email me:<a href="mailto:laroc22cl@gmail.com"><u><h6>Click here to send a message!</h6></u></a>
-					<onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-				</h2>
+				<button id="myButton"><h3>Email Me</h3></button>
+
+				<script type="text/javascript">
+				    document.getElementById("myButton").onclick = function () {
+				        location.href = "http://localhost:3000/welcome/email";
+				    };
+				</script>
 			</span>
 		</div>
 		

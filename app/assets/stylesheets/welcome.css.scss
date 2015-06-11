@@ -31,17 +31,40 @@ img#carol {
 	border: 4px solid black;
 	height: 300px;
 	border-radius: 150px;
-	margin-top: 75px;
+	margin-top: -75px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: -25px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+// positioning of about, product, and email
+div.about {
+	position: relative;
+    margin-top: -200px;
+}
+button#myButton {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 8px solid black;
+	height: 150px;
+	width: 250px;
+    border-radius: 1px;
+    background-color: #BFEFFF;
+    color: black;
+    -box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    font-family: Verdana;
+}
+div.product {
+	position: relative;
+    margin-top: -200px;
 }
 img#bluebutterfly {
 	border: 4px solid black;
