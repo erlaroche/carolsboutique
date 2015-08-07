@@ -132,10 +132,11 @@ img#purplefloweronpurple {
 	opacity: .8;
 }
 img#gallary {
-	border: 4px solid black;
+	border: 6px solid black;
 	height: 150px;
 	position: relative;
-	margin-left: auto;
+	mdisplay: float;
+    margin-left: auto;
     margin-right: auto;
 	border-radius: 20px;
 	margin: 30px;
@@ -144,10 +145,9 @@ img#gallary {
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .stylegallary {
-	background-color: #F5FFF5;
+	background-color: #999999;
 	border: 4px solid black;
 	border-radius: 20px;
-	margin-left: 20px;
 }
 
 
