@@ -1,24 +1,21 @@
 
 <div class="row">
 	<div class="large-12 columns">
-		</br>
-		</br>
-		</br>
-		</br>
-		</br>
-		</br>
-		<span id="carol"><%= image_tag "ballerina.jpg", id: 'carol' %>
-		</span>
-	</div>
-<div>
-
-<div class="row">
-	<div class="large-12 columns">
 	<span>
-		<h2>Email me:<a href="mailto:laroc22cl@gmail.com"><u><h6>Click here to send a message!</h6></u></a>
+		<h2>Email me:<a href="mailto:laroc22cl@gmail.com?subject=Hello Miss Carol&body=Dear Miss Carol"><u><h6>Click here to send a message!</h6></u></a><onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
+		<a href="mailto:laroc22cl@gmail.com?subject=Hello Miss Carol&body=Dear Miss Carol"><%= image_tag "mail.jpg", id: 'mail' %></a>
 			<onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
 		</h2>
-		<h4>Email Miss Carol's Ballet Boutique to order your personal creation today.  Please include style number displayed on the product, your choice of color, and your contact information (name, email address, and phone number).  Miss Carol will respond to all emails within 48 hours.  We look forward to working with you!</h4>
 	</span>
+	</div>
+</div>
+<div class="row">
+	<div class="large-12 small-centered small-centered columns">
+		<div class="stylegallary">
+		<h4>Email Miss Carol's Ballet Boutique to order your personal creation today.  Please include style number displayed on the product, your choice of color, and your contact information (name, email address, and phone number). Also, please let Miss Carol know if you are interested in a special order. Miss Carol will respond to all emails within 48 hours.  We look forward to working with you!</h4>
+			<h4><%= image_tag "redandpurpleflower.jpg", id: 'gallary' %>FH1
+			<%= image_tag "purplefloweronpurple.jpg", id: 'gallary' %>FH2
+			<%= image_tag "pinkrosette.jpg", id: 'gallary' %>FH3</h4>
+		</div>
 	</div>
 </div>
