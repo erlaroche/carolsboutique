@@ -1,43 +1,37 @@
-<span class="background">
-	<div class="row">
-		<div class="small-12 center columns">
-			<h1 class="name">Miss Carol's Ballet Boutique</h1>
-		</div>
-	</div>
-	</br></br></br>
-	<div class="row">
-		<div class="small-12 large-4 columns">
-			<button id="about"><h1>About</h1></button>
-			<script type="text/javascript">
-			    document.getElementById("about").onclick = function () {
-			        location.href = "http://localhost:3000/welcome/about";
-			    };
-			</script>
-			<%= image_tag "bluebutterfly.jpg", id: 'bluebutterfly' %></span>
-			</br>
-			</br>
-			</br>
-		</div>
-		<div class="small-12 large-4 columns">
-			<span id="carol"><%= image_tag "ballerina.jpg", id: 'carol' %></span>
-			<span>
-				<button id="myButton"><h1>Email</h1></button>
+</br></br></br></br></br></br></br></br></br></br></br></br>
+<div class="row">
+<div class="small-12 large-4 columns">
+	<button id="about"><h1>About</h1></button>
+	<script type="text/javascript">
+	    document.getElementById("about").onclick = function () {
+	        location.href = "http://localhost:3000/welcome/about";
+	    };
+	</script>
+	<%= image_tag "bluebutterfly.jpg", id: 'bluebutterfly' %></span>
+	</br>
+	</br>
+	</br>
+</div>
+<div class="small-12 large-4 columns">
+	<span id="carol"><%= image_tag "ballerina.jpg", id: 'carol' %></span>
+	<span>
+		<button id="myButton"><h1>Email</h1></button>
+		<script type="text/javascript">
+		    document.getElementById("myButton").onclick = function () {
+		        location.href = "http://localhost:3000/welcome/email";
+		    };
+		</script>
+	</span>
+</div>
+
+<div class="small-12 large-4 columns">
+	<button id="product"><h1>Products</h1></button>
 				<script type="text/javascript">
-				    document.getElementById("myButton").onclick = function () {
-				        location.href = "http://localhost:3000/welcome/email";
+				    document.getElementById("product").onclick = function () {
+				        location.href = "http://localhost:3000/welcome/products";
 				    };
-				</script>
-			</span>
-		</div>
-		
-		<div class="small-12 large-4 columns">
-			<button id="product"><h1>Products</h1></button>
-						<script type="text/javascript">
-						    document.getElementById("product").onclick = function () {
-						        location.href = "http://localhost:3000/welcome/products";
-						    };
-						</script><%= image_tag "purplefloweronpurple.jpg", id: 'purplefloweronpurple' %></span>
-		</div>
-	</div>
-</span>
+				</script><%= image_tag "purplefloweronpurple.jpg", id: 'purplefloweronpurple' %></span>
+</div>
+
+
 
