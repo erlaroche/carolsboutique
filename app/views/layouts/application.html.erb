@@ -9,12 +9,17 @@
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
-    <%= favicon_link_tag 'faviconmisscarol.jpeg' %>
+    <%= favicon_link_tag 'favicon.jpg' %>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-    <%= render "layouts/header" %>
+    <div class="row">
+      <div class="large-12 columns">
+        <%= render "layouts/header" %>
+      </div>
+    </div>
+    <%= image_tag "official_logo.jpg", id: 'logo'%>
     <%= yield %>
     <%= javascript_include_tag "application" %>
   </body>
