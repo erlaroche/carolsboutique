@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use postgreSQL as the database for deployment
 gem 'pg'
+# Add rails12factor gem for production - configures logging to work correctly, and allows app to serve static apps directly
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
