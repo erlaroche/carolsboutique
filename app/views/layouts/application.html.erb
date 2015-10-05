@@ -19,7 +19,11 @@
         <%= render "layouts/header" %>
       </div>
     </div>
-    <%= image_tag "official_logo.jpg", id: 'logo'%>
+    <a href="http://localhost:3000/welcome/index" >
+              <%= image_tag "official_logo.jpg", id: 'logo'%>
+
+           </a>
+
     <%= yield %>
     <%= javascript_include_tag "application" %>
   </body>
