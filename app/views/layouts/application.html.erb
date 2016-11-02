@@ -15,6 +15,8 @@
   </head>
 
   <body>
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
     <script type="text/javascript">
 
     /******************************************
@@ -123,10 +125,6 @@
     </div>
     <a href="http://misscarolsballetboutique.herokuapp.com/" >
               <%= image_tag "official_logo.jpg", id: 'logo'%>
-
-           </a>
-
-    <%= yield %>
-    <%= javascript_include_tag "application" %>
+    </a>
   </body>
 </html>
