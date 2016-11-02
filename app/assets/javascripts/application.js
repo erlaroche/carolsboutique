@@ -18,5 +18,6 @@
 
  window.onload = function() {
         $(document).foundation();
+        <script src="snowstorm.js"></script>
 };
 
