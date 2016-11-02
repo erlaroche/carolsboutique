@@ -15,6 +15,9 @@
   </head>
 
   <body>
+    <a href="http://misscarolsballetboutique.herokuapp.com/" >
+              <%= image_tag "official_logo.jpg", id: 'logo'%>
+    </a>
     <%= yield %>
     <%= javascript_include_tag "application" %>
     <div class="row">
@@ -22,8 +25,5 @@
         <%= render "layouts/header" %>
       </div>
     </div>
-    <a href="http://misscarolsballetboutique.herokuapp.com/" >
-              <%= image_tag "official_logo.jpg", id: 'logo'%>
-    </a>
   </body>
 </html>
