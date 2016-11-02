@@ -29,7 +29,7 @@
     }
 
       //Configure below to change URL path to the snow image
-      var snowsrc= <%= image_tag "snow.jpg" %>
+      var snowsrc="snow.gif"
       // Configure below to change number of snow to render
       var no = 10;
       // Configure whether snow should disappear after x seconds (0=never):
