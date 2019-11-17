@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use postgreSQL as the database for deployment
 gem 'pg'
+# add json for heroku-18 upgrade
+gem install json -v '1.8.2' group: :production
 # Add rails12factor gem for production - configures logging to work correctly, and allows app to serve static apps directly
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
